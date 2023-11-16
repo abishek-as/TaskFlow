@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Fira_Sans_Condensed } from "next/font/google";
+import { Fira_Sans } from "next/font/google";
 import "./globals.css";
 
-const font = Fira_Sans_Condensed({ weight: "400", subsets: ["latin"] });
+const font = Fira_Sans({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "Create Next App",
